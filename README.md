@@ -28,6 +28,14 @@ GNU/Linux Permissions are highly customisable, and it is generally not required 
 You can still install all the dependencies in your system [with ROOT permissions], but please be aware of the potential issues when doing so. The installed packages may conflict with the system package manager's installed packages, which can cause trouble down the road and errors when upgrading conflicting packages.
 **You have been warned.**
 
+<details><summary>Deploy To Heroku</summary>
+<p>
+<br>
+<a href="https://heroku.com/deploy?template=https://github.com/flashbotshere/flashleecher/tree/master">
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+</a>
+</p>
+</details>
 
 ### The Legacy Way
 Simply clone the repository and run the main file:
@@ -40,6 +48,7 @@ python3 -m venv venv
 pip install -r requirements.txt
 python3 -m publicleechgroup
 ```
+
 
 ### Variable Explanations
 
